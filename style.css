@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(233, 233, 230);
-    margin: 0;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -19,14 +19,22 @@ h1 {
 
 
 header {
-     background-color: rgb(227, 227, 220);
-    /* background-color: aqua; */
+    background-color: rgb(233, 233, 230);
+    padding: 0em;
+    border-bottom: 1px solid rgb(116, 91, 66);
+    margin: 0px;
+    display: flex;
+	align-items: center;
+}
+
+header img {
+	max-width: 100px;
+	position: fixed
 
 }
 
 header ul a {
     text-decoration: none;
-    
 }
 
 iframe {
@@ -34,10 +42,16 @@ iframe {
     height: auto;
     margin-left: 5%;
     aspect-ratio: 16 / 9;
+    /* position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 90%;
+  min-height: 90%;
+  z-index: -1; */
   }
 
 nav {
-    font-size: larger;
+    font-size: x-large;
     font-family: 'Raleway', sans-serif;
     width: 40%;
     margin: auto;
@@ -59,14 +73,33 @@ a:visited {
 
 a:hover {
     color: rgb(28, 17, 9);
-    font-size: 19px;
+    font-size: 23px;
 }
 
-.header1_1 {
-        background-color: #f2f2f2;
-        padding: 20px;
-        padding: 20px;
+/* .header1_1 {
+        background-color: rgb(233, 233, 230);
+        padding: 5px;
         border-bottom: 1px solid black;
-	    margin: 0;
-    }
+	    margin: 0px;
+    } */
 
+.p {
+    font-family: 'Raleway', sans-serif;
+    /* font-size: x-large;
+    border: 2px solid rgb(85, 69, 55); */
+    /* border-radius: 100px;
+    padding: 5px; */
+    /* border-radius: 50%;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px; */
+}
+
+p {
+    font-family:'Raleway', sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+}
