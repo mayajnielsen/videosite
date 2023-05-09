@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prompt:wght@300&display=swap');
 
 body {
     background-color: rgb(233, 233, 230);
@@ -51,7 +52,7 @@ iframe {
   }
 
 nav {
-    font-size: x-large;
+    font-size: 23px;
     font-family: 'Raleway', sans-serif;
     width: 40%;
     margin: auto;
@@ -59,6 +60,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 a:link { 
@@ -84,22 +86,17 @@ a:hover {
     } */
 
 .p {
-    font-family: 'Raleway', sans-serif;
-    /* font-size: x-large;
-    border: 2px solid rgb(85, 69, 55); */
-    /* border-radius: 100px;
-    padding: 5px; */
-    /* border-radius: 50%;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px; */
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    /* border: 1px solid rgb(85, 69, 55);
+    border-radius: 50px; */
 }
 
 p {
-    font-family:'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: x-large;
     display: flex;
     justify-content: space-between;
+    
 }
